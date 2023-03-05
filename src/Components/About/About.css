@@ -1,0 +1,116 @@
+.services {
+   
+    display: flex;
+    height: 25rem;
+    margin-bottom: 8rem;
+    margin-top: 5rem;
+    margin-bottom: 13rem;
+    /* scroll view */
+    padding-top: 3rem;
+  }
+  /* left side */
+  .awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* gap: 20px; */
+  }
+  
+  .awesome > :nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .awesome > :nth-child(3) {
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  .s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+  }
+  #blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 0%; 
+    background: #ABF1FF94;
+    filter: blur(212px);
+    z-index: -9;
+    top: 50;
+    left: 56%;
+    filter: blur(72px);
+  }
+  /* right sided */
+  :root {
+    --border: 3px;
+    --color1: #6be89b;
+    --color2: #0076a5;
+    --from: 37deg;
+    --distance: 50%;
+   
+  }
+ 
+  .containerAbout {
+ 
+    display: grid;
+    place-items: center;
+    /* height: 100vh;  */
+    margin: 0;
+    position: relative;
+    padding: 36px;
+
+  }
+  .containerAbout::after {
+    content: '';
+    border-radius: 900px;
+    display: block;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    height: 130%;
+    width: 100%;
+    background: conic-gradient(
+      from var(--from),
+      var(--orange),
+      var(--orange) var(--distance),
+      transparent var(--distance)
+    );
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - var(--border)),
+      #fff calc(100% - var(--border) + 1px)
+    );
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - var(--border)),
+      #fff calc(100% - var(--border) + 1px)
+    );
+    animation: fadeIn 1s ease-in both;
+  }
+
+  .containerAbout img {
+    margin-left: 10rem;
+    border-radius: 900px;
+    display: block;
+    width: 50vh;
+    height: 55vh;
+    animation: fadeIn 1s ease-in both;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -20%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
