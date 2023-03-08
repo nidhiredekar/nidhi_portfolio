@@ -4,8 +4,10 @@
   margin: -0.5rem -3.5rem;
   position: relative;
   margin-top: -10rem;
+
 }
 .f-content {
+  margin-left: 1%;
   position: absolute;
   display: flex;
   align-items: left;

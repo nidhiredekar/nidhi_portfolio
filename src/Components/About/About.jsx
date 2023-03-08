@@ -19,7 +19,7 @@ const About = () => {
         <span>I am Nidhi</span>
         <spane>
         I enjoy creating things that are live on the internet. My interest in web development started back   <br />
-        in 2020 when I decided to try my hands on Ruby on Rails.Fast-forward to today, and I’ve had the   <br />privilege of working at a huge corporation SAP Labs.
+        in 2020 when I decided to try my hands on React.Fast-forward to today, and I’ve had the   <br />privilege of working at a huge corporation SAP Labs.
         <br />  <br />
         Educational Background :  <br />
         I have done a Master's in Computer Application from the National Institute of Technology, Calicut. 

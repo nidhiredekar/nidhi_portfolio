@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer" id="contact">
       <img src={Wave} alt="" style={{ width: "100%" }} />
       <div className="f-content">
-        {/* <span>nidhiredekar13@gmail.com</span> */}
+         <span>Contact :</span> 
         <div className="f-icons">
           <a href="https://www.linkedin.com/in/nidhiredekar/"><Insta color="white" size={"3rem"} /></a>
           <a href="https://github.com/nidhiredekar/"> <Gitub color="white" size={"3rem"} /></a>

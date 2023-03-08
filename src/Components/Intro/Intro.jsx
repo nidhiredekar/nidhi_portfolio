@@ -3,10 +3,7 @@ import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import girl from "../../img/girl.png";
-import glassesimoji from "../../img/glassesimoji.png";
-import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
-
+import { Link } from "react-scroll";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/in.png";
@@ -26,12 +23,12 @@ const Intro = () => {
           </span>
         </div>
        
-          <button className="button i-button">Hire me</button>
+          <button className="button i-button">  <Link to="contact" spy={true} smooth={true}>Hire me</Link></button>
       
         {/* social icons */}
         <div className="i-icons">
-          <img  src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+        <a href="https://github.com/nidhiredekar/">  <img  src={Github} alt="" /></a>
+          <a href="https://www.linkedin.com/in/nidhiredekar/"><img src={LinkedIn} alt="" /></a>
           <img src={Instagram} alt="" />
         </div>
       </div>
