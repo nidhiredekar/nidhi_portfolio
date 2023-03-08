@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nidhi_portfolio/static/css/main.d4807f54.css",
+    "main.js": "/nidhi_portfolio/static/js/main.ab785279.js",
+    "static/media/geetaApp.png": "/nidhi_portfolio/static/media/geetaApp.47244bf0aa01f1161584.png",
+    "static/media/girl.png": "/nidhi_portfolio/static/media/girl.f4cc0ffe95bcc64dcfea.png",
+    "static/media/notetaking.png": "/nidhi_portfolio/static/media/notetaking.5fbf980ca9fec137e853.png",
+    "static/media/cutelogo.png": "/nidhi_portfolio/static/media/cutelogo.03800de4c6880d1b2bb0.png",
+    "static/media/musicapp.png": "/nidhi_portfolio/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/pic1.jpeg": "/nidhi_portfolio/static/media/pic1.c157ecf1d86e8d2cd6e1.jpeg",
+    "static/media/nidhi_resume.pdf": "/nidhi_portfolio/static/media/nidhi_resume.dc088a62b5550a510143.pdf",
+    "static/media/simon.png": "/nidhi_portfolio/static/media/simon.217322dc616b43f2b60f.png",
+    "static/media/Vector2.png": "/nidhi_portfolio/static/media/Vector2.c0da5bb0d5bd3a9e9c6f.png",
+    "static/media/humble.png": "/nidhi_portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/nidhi_portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/glasses.png": "/nidhi_portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/nidhi_portfolio/index.html",
+    "main.d4807f54.css.map": "/nidhi_portfolio/static/css/main.d4807f54.css.map",
+    "main.ab785279.js.map": "/nidhi_portfolio/static/js/main.ab785279.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4807f54.css",
+    "static/js/main.ab785279.js"
+  ]
+}
